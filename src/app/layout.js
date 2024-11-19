@@ -2,7 +2,7 @@ import localFont from 'next/font/local';
 import './globals.css';
 import Header from '.src/components/Header';
 import { ThemeProvider } from 'next-themes';
-import ThemeCom from './components/ThemeCom';
+import ThemeCom from '.src/components/ThemeCom';
 import { ClerkProvider } from '@clerk/nextjs';
 import { ThemeModeScript } from 'flowbite-react';
 
